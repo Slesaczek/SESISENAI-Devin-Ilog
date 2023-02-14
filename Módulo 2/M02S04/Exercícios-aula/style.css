@@ -1,0 +1,21 @@
+html, body {
+    height: 100%;
+    width: 100%;
+  }
+  
+  .um-estilo-bacana {
+    width: 80%;
+    height: 50px;
+    background-color: gray;
+  }
+  
+  .estilo-botao {
+    width: 80%;
+    height: 50px;
+    background-color: lightgray;
+    cursor: pointer;
+  }
+  
+  .estilo-botao:hover { 
+    background-color: darkgray;
+  }
