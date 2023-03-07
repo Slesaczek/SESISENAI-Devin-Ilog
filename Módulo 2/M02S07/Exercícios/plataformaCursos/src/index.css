@@ -1,0 +1,11 @@
+html,body,div, h1{
+  padding:0;
+  margin: 0;
+  border:0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: #D7DBDD; /* Gray */
+}
