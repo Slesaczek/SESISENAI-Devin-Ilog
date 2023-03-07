@@ -1,5 +1,20 @@
 .Navbar{
-    height: 98px;
-    color: #0171AF;
+    height: 98px;    
+    padding: 0 40px;
     background-color: #EAEAEA; 
+    display: flex;
+    align-items: center;
+    
+}
+
+.Navbar h1 {
+    color: #0171AF;
+    font-size: 36px;
+    line-height: 44px;
+}
+
+.Navbar .logo{
+    display: flex;
+    gap: 15px;
+    align-items: center;
 }
