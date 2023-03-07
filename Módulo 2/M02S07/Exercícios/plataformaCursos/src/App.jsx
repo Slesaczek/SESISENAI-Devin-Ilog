@@ -1,7 +1,9 @@
+import Home from "./pages/Home"
+
 function App() {
   return (
-    <div className="App">
-      <h1>DevInCursos</h1>
+    <div className="App">   
+      <Home/>   
     </div>
   )
 }

@@ -9,3 +9,9 @@ body {
   font-family: sans-serif;
   background-color: #D7DBDD; /* Gray */
 }
+
+#root{
+  display: flex;
+  flex-direction: column;
+
+}
