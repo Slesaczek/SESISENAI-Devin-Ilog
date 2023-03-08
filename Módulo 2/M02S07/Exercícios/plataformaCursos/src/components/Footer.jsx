@@ -1,13 +1,11 @@
 import "./Footer.css";
 
-function Footer(){
-    return(
-        <footer className="Footer">
-            <div className="info">    
-            <p>DEVinCursos | Av. José, 65 | 2023</p>         
-            </div>
-        </footer>
-    );
+function Footer() {
+  return (
+    <footer className="footerContainer">
+      <p>DEVinCursos | 2023</p>
+    </footer>
+  );
 }
 
 export default Footer;

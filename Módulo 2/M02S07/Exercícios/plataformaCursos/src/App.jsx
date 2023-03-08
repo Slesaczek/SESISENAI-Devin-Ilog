@@ -1,11 +1,19 @@
-import Home from "./pages/Home"
+import Navbar from "./components/Navbar";
+import PageWrapper from "./components/PageWrapper";
+import Footer from "./components/Footer";
+
+import HomePage from "./pages/HomePage";
 
 function App() {
   return (
-    <div className="App">   
-      <Home/>   
-    </div>
-  )
+    <>
+      <Navbar />
+      <PageWrapper>
+        <HomePage />
+      </PageWrapper>
+      <Footer />
+    </>
+  );
 }
 
-export default App
+export default App;

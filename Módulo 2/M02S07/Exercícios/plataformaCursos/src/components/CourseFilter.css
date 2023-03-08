@@ -1,0 +1,26 @@
+.courseFilterContainer {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.courseFilterContainer input {
+  width: 358px;
+  height: 33px;
+  padding: 0 10px;
+  border: 1px solid #727375; /* dark-gray */
+  border-radius: 10px;
+}
+
+.courseFilterContainer button {
+  height: 33px;
+  padding: 0 24px;
+  border: 1px solid #0171af; /* primary */
+  border-radius: 33px;
+  color: #0171af; /* primary */
+  background-color: transparent;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  text-transform: uppercase;
+}

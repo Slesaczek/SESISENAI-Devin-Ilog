@@ -1,7 +1,7 @@
-.Footer{   
-    padding: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center; 
-    color: #727375; /* dark-gray */
+.footerContainer {
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #727375; /* dark-gray */
 }
