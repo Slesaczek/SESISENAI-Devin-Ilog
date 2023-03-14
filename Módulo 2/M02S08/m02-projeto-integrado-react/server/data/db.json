@@ -1,0 +1,148 @@
+{
+  "produtos": [
+    {
+      "id": 1,
+      "img": "http://localhost:8081/assets/salada-jacare.png",
+      "nome": "Salada de Jacaré",
+      "descricao": "Mix de folhas coloridas, tomate cereja,croutôns, palmito e lascas de jacaré salteadas, regadas ao molho balsâmico, oliva e mel.",
+      "valor": 49,
+      "tempoPreparo": "10 min",
+      "secao": "Entradas"
+    },
+    {
+      "id": 2,
+      "img": "http://localhost:8081/assets/salada-faisao.png",
+      "nome": "Salada de Faisão",
+      "descricao": "Mix de folhas, muzzarela de búfala e tomates secos com pequenos pedaços de faisão grelhados ao vinagrete.",
+      "valor": 65,
+      "tempoPreparo": "15 min",
+      "secao": "Entradas"
+    },
+    {
+      "id": 3,
+      "img": "http://localhost:8081/assets/figos.png",
+      "nome": "Figos da montanha",
+      "descricao": "Figos naturais recheados com queijo de cabra e presunto parma, gratinados com queijo parmesão. Acompanha salada verde.",
+      "valor": 55,
+      "tempoPreparo": "25 min",
+      "secao": "Entradas"
+    },
+    {
+      "id": 4,
+      "img": "http://localhost:8081/assets/champgnon.png",
+      "nome": "Champignon D'ávila",
+      "descricao": "Champignon fresco gigante produzidos na Linha Ávila no interior de Gramado, recheado com creme de javali, gratinado com queijo parmesão.",
+      "valor": 65,
+      "tempoPreparo": "30 min",
+      "secao": "Entradas"
+    },
+    {
+      "id": 5,
+      "img": "http://localhost:8081/assets/brandade.png",
+      "nome": "Brandade de Bacalhau",
+      "descricao": "Aveludada brandade de bacalhau servida em crocante de sementes, delicada base de azeite de rúcula e suas folhas com farofinha de azeitonas.",
+      "valor": 65,
+      "tempoPreparo": "30 min",
+      "secao": "Entradas"
+    },
+    {
+      "id": 6,
+      "img": "http://localhost:8081/assets/sopa-cebola.png",
+      "nome": "Sopa Gratinada de Cebola",
+      "descricao": "Tradicional sopa de cebola à francesa gratinada com pão e queijo gruyerè.",
+      "valor": 64,
+      "tempoPreparo": "20 min",
+      "secao": "Entradas"
+    },
+    {
+      "id": 7,
+      "img": "http://localhost:8081/assets/file.png",
+      "nome": "Filé Tapera",
+      "descricao": "Medalhão de filé mignon acompanhado de massa farfalle ao molho de queijos.",
+      "valor": 142,
+      "tempoPreparo": "40 min",
+      "secao": "Principais"
+    },
+    {
+      "id": 8,
+      "img": "http://localhost:8081/assets/cordeiro.png",
+      "nome": "Cordeiro Lajeana",
+      "descricao": "Carré grelhado com delicado molho de três pimentas, batata suíça e banana caramelada.",
+      "valor": 169,
+      "tempoPreparo": "50 min",
+      "secao": "Principais"
+    },
+    {
+      "id": 9,
+      "img": "http://localhost:8081/assets/copa.png",
+      "nome": "Copa Lombo",
+      "descricao": "Ostentosa porção de copa lombo de porco Duroc marinada em tempero clássico La Caceria escoltado de aveludado purê de maçãs e abóbora cabotia assada em manteiga de mix de pimenta.",
+      "valor": 172,
+      "tempoPreparo": "50 min",
+      "secao": "Principais"
+    },
+    {
+      "id": 10,
+      "img": "http://localhost:8081/assets/copa.png",
+      "nome": "Risoto Araripe",
+      "descricao": "Risoto cremoso de coelho temperado com molho de caças, nozes e cogumelos cultivados no interior de Gramado.",
+      "valor": 134,
+      "tempoPreparo": "40 min",
+      "secao": "Principais"
+    },
+    {
+      "id": 11,
+      "img": "http://localhost:8081/assets/risoto.png",
+      "nome": "Risoto Araripe",
+      "descricao": "Risoto cremoso de coelho temperado com molho de caças, nozes e cogumelos cultivados no interior de Gramado.",
+      "valor": 134,
+      "tempoPreparo": "40 min",
+      "secao": "Principais"
+    },
+    {
+      "id": 12,
+      "img": "http://localhost:8081/assets/risoto-pantano.png",
+      "nome": "Risoto Pântano & Mar",
+      "descricao": "Com lascas de jacaré e imponentes camarões, servidos em base de risoto clássico com açafrão, cogumelos caramelizados e pó de bottarga.",
+      "valor": 134,
+      "tempoPreparo": "40 min",
+      "secao": "Principais"
+    },
+    {
+      "id": 13,
+      "img": "http://localhost:8081/assets/macarrao-serra.png",
+      "nome": "Macarrão Serra Grande",
+      "descricao": "Tradicional macarrão caseiro italiano produzido em nossa região servido ao molho de perdizes marinadas cozidas lentamente na panela. O clássico dos caçadores.",
+      "valor": 165,
+      "tempoPreparo": "30 min",
+      "secao": "Principais"
+    },
+    {
+      "id": 14,
+      "img": "http://localhost:8081/assets/strudel.png",
+      "nome": "Strudel da Montanha",
+      "descricao": "Torta de maçã e nozes com calda de pimenta, alecrim e manjericão com sorvete artesanal de creme.",
+      "valor": 45,
+      "tempoPreparo": "20 min",
+      "secao": "Sobremesas"
+    },
+    {
+      "id": 15,
+      "img": "http://localhost:8081/assets/zabaione.png",
+      "nome": "Zabaione de Frutas Silvestres",
+      "descricao": "Frutas silvestres ao creme de ovos com canela, aromatizado com vinho licoroso.",
+      "valor": 49,
+      "tempoPreparo": "20 min",
+      "secao": "Sobremesas"
+    },
+    {
+      "id": 16,
+      "img": "http://localhost:8081/assets/pecan.png",
+      "nome": "Pecan Pie",
+      "descricao": "Deliciosa torta de nozes com sorvete artesanal de creme.",
+      "valor": 49,
+      "tempoPreparo": "20 min",
+      "secao": "Sobremesas"
+    }
+  ]
+}

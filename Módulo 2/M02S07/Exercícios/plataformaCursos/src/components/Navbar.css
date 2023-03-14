@@ -1,0 +1,18 @@
+.navbarContainer {
+  height: 98px;
+  padding: 0 40px;
+  background-color: #eaeaea; /* light-gray */
+  display: flex;
+  align-items: center;
+}
+
+.navbarContainer h1 {
+  font-size: 36px;
+  line-height: 44px;
+  color: #0171af; /* primary */
+}
+
+.navbarLogoBox {
+  display: flex;
+  gap: 15px;
+}

@@ -1,0 +1,13 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+}
+
+.main {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  padding: 40px;
+}

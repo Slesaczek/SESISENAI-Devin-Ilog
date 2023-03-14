@@ -1,0 +1,44 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-2);
+  flex: 1;
+}
+
+.label {
+  color: var(--primary);
+  font-weight: var(--font-bold);
+  font-size: 12px;
+}
+
+.input {
+  border: 1px solid var(--dark-gray);
+  background-color: var(--white);
+  border-radius: var(--border-radius-1);
+  padding: var(--spacing-3);
+  color: var(--dark-gray);
+}
+
+.input:focus {
+  border: 1px solid var(--primary);
+}
+
+.input:focus-visible {
+  border: 1px solid var(--primary);
+  outline-color: var(--primary);
+  outline-width: thin;
+  outline-style: solid;
+}
+
+.input::placeholder {
+  font-weight: var(--font-weight-regular);
+  font-size: 12px;
+  color: var(--secondary);
+}
+
+.error {
+  color: var(--secondary);
+  font-size: 10px;
+  font-weight: var(--font-weight-bold);
+  font-style: italic;
+}

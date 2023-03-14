@@ -1,0 +1,4 @@
+.pageWrapperContainer {
+  padding: var(--spacing-9) var(--spacing-10);
+  flex-grow: 1;
+}

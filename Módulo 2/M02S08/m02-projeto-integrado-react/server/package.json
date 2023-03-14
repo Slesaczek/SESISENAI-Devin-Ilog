@@ -1,0 +1,14 @@
+{
+  "name": "food-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "json-server --watch data/db.json --port=8081"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.17.2"
+  }
+}
