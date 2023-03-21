@@ -1,0 +1,52 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Thais",
+      "email": "thais@dih.br",
+      "password": "123",
+      "isAdmin": true
+    },
+    {
+      "id": 2,
+      "name": "Romeu",
+      "email": "romeu@dih.br",
+      "password": "321",
+      "isAdmin": false
+    }
+  ],
+  "courses": [
+    {
+      "id": 1,
+      "imageUrl": "/src/assets/reactjs.png",
+      "name": "React Js",
+      "category": "front-end",
+      "description": "Curso sobre React Js",
+      "duration": 6
+    },
+    {
+      "id": 2,
+      "imageUrl": "/src/assets/reactts.png",
+      "name": "React com TS",
+      "category": "front-end",
+      "description": "Curso sobre React com TS",
+      "duration": 6
+    },
+    {
+      "id": 3,
+      "imageUrl": "/src/assets/reactrouter.png",
+      "name": "React Router",
+      "category": "front-end",
+      "description": "Curso sobre React Router",
+      "duration": 6
+    },
+    {
+      "id": 4,
+      "imageUrl": "/src/assets/contextapi.png",
+      "name": "Context API",
+      "category": "front-end",
+      "description": "Curso sobre Context API",
+      "duration": 6
+    }
+  ]
+}

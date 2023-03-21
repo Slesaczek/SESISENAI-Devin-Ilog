@@ -1,0 +1,22 @@
+.notFoundPageContainer {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: var(--spacing-6);
+}
+
+.notFoundPageContainer img {
+  max-width: 100%;
+}
+
+.notFoundPageContainer h2 {
+  font-family: "Inter";
+  font-style: var(--font-bold);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  color: var(--primary);
+  text-align: center;
+}

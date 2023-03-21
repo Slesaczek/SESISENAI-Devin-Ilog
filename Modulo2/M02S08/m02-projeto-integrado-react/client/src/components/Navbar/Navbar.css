@@ -1,0 +1,14 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  color: #ffb500;
+  background-color: #1d1d1d;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}

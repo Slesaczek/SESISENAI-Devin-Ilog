@@ -1,0 +1,11 @@
+.HeaderContainer {
+  font-size: 20px;
+  padding: 30px;
+  margin: 20px;
+  border: 10px solid brown;
+}
+
+.HeaderContainer nav {
+  display: flex;
+  gap: 10px;
+}
