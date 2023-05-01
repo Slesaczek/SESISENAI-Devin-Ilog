@@ -4,7 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b30cde83-3b36-4fdc-8366-2e6674e98b5b" name="Changes" comment="Exercícios M03S01">
+    <list default="true" id="b30cde83-3b36-4fdc-8366-2e6674e98b5b" name="Changes" comment="&quot;Exercícios M03S01 - Semana 2&quot;">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/m03s01-exercícios.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/tech/devinhouse/veiculos/VeiculosApiApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/tech/devinhouse/veiculos/controller/VeiculosController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/tech/devinhouse/veiculos/dto/VeiculoRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/tech/devinhouse/veiculos/dto/VeiculoResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/tech/devinhouse/veiculos/exception/FalhaExclusaoVeiculoComMultasException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/tech/devinhouse/veiculos/exception/RegistroExistenteException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/tech/devinhouse/veiculos/exception/RegistroNaoEncontradoException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/tech/devinhouse/veiculos/exception/RestExceptionHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/tech/devinhouse/veiculos/model/Veiculo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/tech/devinhouse/veiculos/repository/VeiculoRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/tech/devinhouse/veiculos/service/VeiculoService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/tech/devinhouse/veiculos/VeiculoApiApplicationTests.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/tech/devinhouse/veiculos/controller/VeiculosControllerTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/tech/devinhouse/veiculos/service/VeiculoServiceTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Módulo 2/Projeto Avaliativo" beforeDir="false" afterPath="$PROJECT_DIR$/../../Módulo 2/Projeto Avaliativo" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../m03s01-api-testes" beforeDir="false" afterPath="$PROJECT_DIR$/../m03s01-api-testes" afterDir="false" />
     </list>
@@ -40,6 +63,7 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "reference.settings.project.maven.importing",
+    "spring.configuration.checksum": "8a6691e2e26dcc07be4276b3fe905ff6",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -99,6 +123,7 @@
       <option name="presentableId" value="Default" />
       <updated>1682378344328</updated>
       <workItem from="1682378345297" duration="1770000" />
+      <workItem from="1682977477432" duration="740000" />
     </task>
     <task id="LOCAL-00001" summary="Exercícios M03S01">
       <created>1682389809454</created>
@@ -126,6 +151,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Exercícios M03S01" />
-    <option name="LAST_COMMIT_MESSAGE" value="Exercícios M03S01" />
+    <MESSAGE value="&quot;Exercícios M03S01 - Semana 2&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;Exercícios M03S01 - Semana 2&quot;" />
   </component>
 </project>
