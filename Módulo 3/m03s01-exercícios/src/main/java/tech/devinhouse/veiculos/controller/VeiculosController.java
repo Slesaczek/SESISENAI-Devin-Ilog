@@ -1,6 +1,7 @@
 package tech.devinhouse.veiculos.controller;
 
 import jakarta.validation.Valid;
+import lombok.extern.slf4j.Slf4j;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -15,6 +16,7 @@ import java.net.URI;
 
 @RestController
 @RequestMapping("/api/veiculos")
+@Slf4j
 public class VeiculosController {
 
     @Autowired
@@ -24,8 +26,10 @@ public class VeiculosController {
 
     @PostMapping
     public ResponseEntity<VeiculoResponse> adicionar(@RequestBody @Valid VeiculoRequest request) {
+        log.debug("Dados da request: {}", request);
         Veiculo veiculo = modelMapper.map(request, Veiculo.class);
         veiculo = service.inserir(veiculo);
+        log.info("Placa {} cadastrada com sucesso!", veiculo.getPlaca());
         var resp = modelMapper.map(veiculo, VeiculoResponse.class);
         return ResponseEntity.created(URI.create(veiculo.getPlaca())).body(resp);
     }
@@ -33,6 +37,7 @@ public class VeiculosController {
     @GetMapping
     public ResponseEntity<List<VeiculoResponse>> consultar() {
         List<Veiculo> veiculos = service.listar();
+        log.info("Consulta retornando {} veiculos", veiculos.size());
         List<VeiculoResponse> veiculosResp = veiculos.stream()
                 .map(v -> modelMapper.map(v, VeiculoResponse.class)).toList();
         return ResponseEntity.ok(veiculosResp);
